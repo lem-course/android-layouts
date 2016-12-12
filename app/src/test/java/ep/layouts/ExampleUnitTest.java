@@ -1,4 +1,4 @@
-package com.david.layouts;
+package ep.layouts;
 
 import org.junit.Test;
 

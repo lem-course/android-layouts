@@ -1,4 +1,4 @@
-package com.david.layouts;
+package ep.layouts;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void addNumber(View view) {
         final Button b = (Button) view;
-        final String newValue = textView.getText().toString() + b.getText().toString();
+        final String currentValue = textView.getText().toString();
+        final String newValue = currentValue.concat(b.getText().toString());
+
         textView.setText(newValue);
     }
 

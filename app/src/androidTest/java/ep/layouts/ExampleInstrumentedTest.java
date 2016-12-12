@@ -1,4 +1,4 @@
-package com.david.layouts;
+package ep.layouts;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
